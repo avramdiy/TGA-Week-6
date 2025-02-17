@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 # Specify the exact paths to your Earnings.csv files
 EARNINGS_FILES = [
-    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_7_25\Earnings.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_8_25\Earnings.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 6\DTM_2_7_25\Earnings.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 6\DTM_2_8_25\Earnings.csv",
     r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_9_25\Earnings.csv",
     r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_10_25\Earnings.csv",
     r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_11_25\Earnings.csv",
