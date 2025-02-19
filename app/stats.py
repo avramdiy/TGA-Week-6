@@ -7,13 +7,13 @@ app = Flask(__name__)
 
 # Specify the exact paths to your Stats.csv files
 STATS_FILES = [
-    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_7_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_8_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_9_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_10_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_11_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_12_25\Stats.csv",
-    r"C:\Users\Ev\Desktop\TGA Week 5\DTM_2_13_25\Stats.csv"
+    r"C:\Users\Ev\Desktop\TGA Week 6\DTM_2_14_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 6\DTM_2_15_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 6\DTM_2_16_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 6\DTM_2_17_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 6\DTM_2_18_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 6\DTM_2_19_25\Stats.csv",
+    r"C:\Users\Ev\Desktop\TGA Week 6\DTM_2_20_25\Stats.csv"
 ]
 
 def compile_stats_data():
@@ -72,7 +72,7 @@ def create_minutes_watched_bar_chart(stats_df):
     plt.tight_layout()
 
     # Save the chart
-    chart_path = r'C:\Users\Ev\Desktop\TGA Week 5\minutes_watched_chart.png'
+    chart_path = r'C:\Users\Ev\Desktop\TGA Week 6\minutes_watched_chart.png'
     plt.savefig(chart_path)
     plt.close()
     return chart_path
@@ -97,7 +97,7 @@ def create_line_chart(stats_df):
     plt.tight_layout()
 
     # Save the chart
-    chart_path = r'C:\Users\Ev\Desktop\TGA Week 5\line_chart_stats.png'
+    chart_path = r'C:\Users\Ev\Desktop\TGA Week 6\line_chart_stats.png'
     plt.savefig(chart_path)
     plt.close()
     return chart_path
